@@ -27,3 +27,30 @@ homeBtn.addEventListener('click', function () {
     // console.log("Portfolio Clicked");
     showPortfolio();
 });
+
+
+
+
+/*
+=================================================
+projects
+=================================================
+*/
+
+const projectsJSON = [
+    {
+        name: "repox cli",
+        url: "https://npmjs.com/package/repox-cli",
+        about: "Manage your GitHub repositories directly from your terminal"
+    },
+];
+
+const projectsContainer = document.getElementById("projects");
+
+projectsJSON.forEach(project => {
+    const projectHolder = document.createElement("p");
+    projectHolder.innerHTML = `<a href="${project.url}" target="_blank">${project.name}</a> : ${project.about}`;
+    projectsContainer.appendChild(projectHolder);
+});
+
+

@@ -43,6 +43,11 @@ const projectsJSON = [
         url: "https://npmjs.com/package/repox-cli",
         about: "Manage your GitHub repositories directly from your terminal"
     },
+    {
+        name: "emoji selector ",
+        url: "https://github.com/tahsinzidane/emoji-verse",
+        about: "A simple emoji selector app built for Linux distributions. \nCrafted with Electron, it offers an easy way to search and copy emojis right from your desktop."
+    },
 ];
 
 const projectsContainer = document.getElementById("projects");

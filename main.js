@@ -45,7 +45,7 @@ const projectsJSON = [
     },
     {
         name: "emoji selector ",
-        url: "https://github.com/tahsinzidane/emoji-verse",
+        url: "https://github.com/tahsinzidane/emoji-verse?tab=readme-ov-file#emoji-verse",
         about: "A simple emoji selector app built for Linux distributions. \nCrafted with Electron, it offers an easy way to search and copy emojis right from your desktop."
     },
 ];

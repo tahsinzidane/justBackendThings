@@ -39,9 +39,9 @@ projects
 
 const projectsJSON = [
     {
-        name: "repox cli",
-        url: "https://npmjs.com/package/repox-cli",
-        about: "Manage your GitHub repositories directly from your terminal"
+        name: "study tymer",
+        url: "https://github.com/tahsinzidane/studyTymer",
+        about: "Clean, no-nonsense study timer with custom sessions and auto break switching. \nFocus better, hustle smarter. <a href='https://tahsinzidane.github.io/studyTymer/'>click here to visit the app</a>"
     },
     {
         name: "emoji selector ",
